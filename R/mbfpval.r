@@ -1,3 +1,11 @@
+# This is an  function named 'Maximum Bayes Factor'
+# Written by Dr.Worphon Yamaka,
+# Center of excellence in Econometrics, Faculty of Economics,
+# Chiang Mai University
+#
+#
+## Main Function
+
 MBF=function(t,method){
 
 if (method=="pvalue"){
