@@ -6,5 +6,5 @@ Author: Woraphon Yamaka
 Maintainer: The package maintainer <woraphon.econ@gmail.com>
 Description: The p-value calibration method.
 License: COEE.5
-Encoding: COEE.5
+Encoding: UTF-8
 LazyData: true

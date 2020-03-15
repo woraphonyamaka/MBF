@@ -1,21 +1,21 @@
 \name{MBF}
-\alias{MBF}
+\alias{mbfpval}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Maximum Bayes Factor
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+This function is used to do the p-value calibration
 }
 \usage{
-MBF(x)
+MBF(t,method)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
+  \item{t}{ t-statistic}
+  \item{method}{ Select the calibration method i.e. "goodman", "edwards", "sellke1","sellke2","pvalue".}
 }
-}
+
 \details{
 This package introduces an alternative approaches for the p-value namely Minimum Bayes Factors (MBF), for find the evidence against a point null hypothesis under the linear regression context.  MBF is the one counterpart to p-value offered by the Bayesian approach, which relies solely on the observed sample to provide direct probability statements about the parameters of interest. This  approach lie in the same range as p-values, which facilitates us to make the comparison.the MBF is interpreted following the Goodman (1999) labelled intervals. As a result, a BF10 between 1-1/3 is considered weak evidence for H1 , form 1/3 – 1/10 considered moderate evidence for H1, 1/10 – 1/30 is considered substantial evidence, form 1/30 to 1/100 Strong, form 1/100 to 1/300 Very strong, and <1/300 Decisive.
 }
