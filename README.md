@@ -1,5 +1,5 @@
 # MBF
-Maximum Bayes Factors
+Minimum Bayes Factors
 
 #To install this package, you have to install devtools package 
 
